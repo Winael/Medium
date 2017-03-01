@@ -34,11 +34,11 @@ Car bien évidement, si le constructeur de votre lave-vaisselle _MarqueA_, a sig
 
 Je la refait pour nos amis Ops (NetOps, SysOps, DevOps) : Un serveur _B_ (celui du frigo) communique avec un serveur _A_ (celui du lave-vaisselle) **situé sur le même réseau local**, en envoyant sur un cloud public _MB_ des **données potentiellement sensibles**, qui transiteront ensuite vers au travers des cloud publics _FA_ et _FE_, puis _MA_ pour revenir sur le réseau local s'adresser au serveur _A_.
 
-![](file:///home/winael/Images/gifs/what1.gif)
+![](what1.gif)
 
 Et bien évidément si l'un de ses prestataires ferme son service (ce qui n'arrive jamais, croix de bois croix de fer et vive AC/DC) c'est soit une partie de l'intelligence qui s'en va, soit votre appareil ne sait tout simplement plus communiquer (gné !), voire pire, votre appreil devient inutilisable lorsque toute la partie applicative est écrite côté cloud, un grand merci à AWS IoT ou Azure IoT pour cette apport à l'intelligence des objets.
 
-![](file:///home/winael/Images/gifs/facepalm.gif)
+![](facepalm.gif)
 
 Autre problème de taille, si l'objet physique en tant que tel vous appartient bien, son système informatique, lui, est propriété du constructeur, et il ne vous sera pas permis de le modifier pour l'adapter à vos usages dans de nombreux cas. Relativement peu d'objets dit « intelligents » sont soit, au mieux, open-source/open-hardware, soit présentent une API ouverte et fort bien documentée, transformant de facto l'objet en plateforme de développement. Dans ce cas comment parler d' « intelligence », excepté sous un angle purement marketing ? et comment continuer à parler de propriété, puisque l'objet dans son ensemble, n'est plus vraiment vôtre. L'objet physique ne sert que de point d'accès à un service qui est la réelle valeur ajoutée. Subtilement nous sommes passé du droit de propriété au droit d'usage, et pourtant, le prix de l'objet en magasin a bien augmenté 
 
